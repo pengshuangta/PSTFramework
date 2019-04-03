@@ -1,7 +1,7 @@
 
 Pod::Spec.new do |s|
   s.name         = "PSTFramework"
-  s.version      = "0.0.2"
+  s.version      = "0.0.3"
   s.summary      = "创建一个输出hello world的Framework"
   s.description  = <<-DESC
   这就是一个测试，没别的，你信不信？
@@ -15,5 +15,6 @@ Pod::Spec.new do |s|
   s.source_files  = 'Framework/**/*.{h,m}'
   s.public_header_files = "Framework/**/*.h"
   s.requires_arc = true
+  s.ios.vendored_frameworks = 'PSTFramework/Framework/PSTFramework.framework'
 
 end
