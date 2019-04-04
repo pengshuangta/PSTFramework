@@ -15,6 +15,6 @@ Pod::Spec.new do |s|
   s.source_files  = 'Framework/**/*.{h,m}'
   s.public_header_files = "Framework/**/*.h"
   s.requires_arc = true
-  s.ios.vendored_frameworks = 'PSTFramework/Framework/PSTFramework.framework'
+  s.ios.vendored_frameworks = 'Framework/PSTFramework.framework'
 
 end
