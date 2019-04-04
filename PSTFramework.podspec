@@ -1,8 +1,9 @@
 
 Pod::Spec.new do |s|
   s.name         = "PSTFramework"
-  s.version      = "1.0.0"
+  s.version      = "1.0.1"
   s.summary      = "创建一个输出hello world的Framework"
+  s.ios.deployment_target = '9.0'
   s.description  = <<-DESC
   这就是一个测试，没别的，你信不信？
   DESC
