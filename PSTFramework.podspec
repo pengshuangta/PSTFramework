@@ -1,7 +1,7 @@
 
 Pod::Spec.new do |s|
   s.name         = "PSTFramework"
-  s.version      = "0.0.3"
+  s.version      = "1.0.0"
   s.summary      = "创建一个输出hello world的Framework"
   s.description  = <<-DESC
   这就是一个测试，没别的，你信不信？
